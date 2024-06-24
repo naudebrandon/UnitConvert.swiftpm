@@ -7,7 +7,7 @@ struct ContentView: View {
     
     let units = ["F", "C", "K"]
 
-    //Convert the units that i sselected
+    //Convert the units that is selected
     var convertUnit: String {
         let selectedUnits = String(baseUnit) + String(endUnit)
         let input = Double(userInput)
